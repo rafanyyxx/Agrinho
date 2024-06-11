@@ -1,38 +1,46 @@
 body {
-    background-color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 0;
+  margin: 0;
+
 }
 
 header {
+    background-color: rgba(90, 185, 80, 0.336);
+    color: rgb(0, 0, 0);
     text-align: center;
-    background-color: darkseagreen;
-    border-radius: 10px;
-    color: white;
-    font-size: 70px;
-    padding: 30px;
-    width: 300;
-    font-family: "Poetsen One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-size: 50px;
+    padding: 40px;
+  display:flex;
 
+
+    font-family: "Spicy Rice", serif;
+    font-weight: 500;
+    font-style: normal;
+    
+    font-family: "Almendra SC", serif;
+    font-weight: 1000;
+    font-style: normal;
+}
+image{
+    top: 30px;
+    height: 30px;
 }
 
-header:hover {
-    background-color: rgba(255, 0, 0, 0.5);
-    mix-blend-mode: multiply;
+nav {
+    background-color: #79d374c7;
+    overflow: hidden;
+    text-align: center;
   }
   
-}
-
-footer {
-    background-color: black;
+  nav a {
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.76);
+    text-decoration: none;
+    padding: 14px 20px;
+  }
+  
+  nav a:hover {
+    background-color: #78d3745e;
     color: rgb(255, 255, 255);
-}
-
- 
-
-
-
-
-
-
-universi 
+  }
