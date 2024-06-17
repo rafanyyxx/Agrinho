@@ -1,3 +1,8 @@
+@media(min-width:200px) and (max-width:780px)
+{
+
+}
+
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   padding: 0;
@@ -9,9 +14,9 @@ header {
     background-color: rgba(90, 185, 80, 0.336);
     color: rgb(0, 0, 0);
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     padding: 40px;
-  display:flex;
+  
 
 
     font-family: "Spicy Rice", serif;
@@ -22,10 +27,13 @@ header {
     font-weight: 1000;
     font-style: normal;
 }
-image{
-    top: 30px;
-    height: 30px;
-}
+ img{
+  position: absolute; 
+  top: 130px; 
+  left: 90px; 
+ }
+
+
 
 nav {
     background-color: #79d374c7;
@@ -41,6 +49,12 @@ nav {
   }
   
   nav a:hover {
-    background-color: #78d3745e;
+    background-color: #79d374bb;
     color: rgb(255, 255, 255);
+  }
+
+  text{
+    background-color: #79d374bb;
+    font-size: 50px;
+
   }
