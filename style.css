@@ -1,0 +1,101 @@
+@media(min-width:200px) and (max-width:780px) {}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 0;
+  margin: 0;
+
+}
+
+header {
+  background-color: rgba(90, 185, 80, 0.336);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 40px;
+  padding: 40px;
+
+
+  font-family: "Spicy Rice", serif;
+  font-weight: 500;
+  font-style: normal;
+
+  font-family: "Almendra SC", serif;
+  font-weight: 1000;
+  font-style: normal;
+}
+
+img {
+  position: absolute;
+  top: 130px;
+  left: 90px;
+}
+
+
+
+nav {
+  background-color: #79d374c7;
+  overflow: hidden;
+  text-align: center;
+}
+
+nav a {
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.76);
+  text-decoration: none;
+  padding: 14px 20px;
+}
+
+nav a:hover {
+  background-color: #79d374bb;
+  color: rgb(255, 255, 255);
+}
+
+.texto-colorido {
+  background-color: rgba(90, 185, 80, 0.544);
+  margin-top: 70px;
+  padding: 20px;
+  width: 30%;
+  border-radius: 20px;
+  height: 30%;
+  font-size: 17px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.texto-colorido2 {
+  background-color: rgba(90, 185, 80, 0.544);
+  display: flex;
+  flex-direction: row;
+
+  font-size: 17px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.img1 {
+  max-width: 100%;
+  width: 40%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  left: 800px;
+  margin-top: 26%;
+}
+
+
+.img2 {
+  max-width: 100%;
+
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  left: -800px;
+  margin-top: -150px;
+}
