@@ -1,0 +1,40 @@
+section {
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fsearch%2Fimages%3Fk%3Dcorn%2Bfield&psig=AOvVaw1ASh2G4USGvpZlTZmHo7yo&ust=1723040888431000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCIjV993J4IcDFQAAAAAdAAAAABAJ");
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.login-container {
+    margin-top: 100px;
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px 10px rgba(212, 86, 86, 0.1);
+    display: inline-block;
+  }
+  
+  input[type="text"],
+  
+  input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  
